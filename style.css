@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E9ECEF;
+    height: 100vh;
+}
+
+/* index.html */
+
+#info {
+   margin-top: 50px;
+}
+#info h1 {
+    font-weight: bold;
+}
+
+#urun-list li{
+    background-color: #E9ECEF;
+    border: none !important;
+}
+#info .aboutbtn {
+    position: absolute; 
+    border-radius: 10px;
+    padding: 10px;
+    top: 75%;
+    left: 46%;
+}
+.aboutbtn:hover {
+    background-color: black;
+    color: white;
+}
+.aboutbtn a {
+    text-decoration: none;
+    color: rgb(146, 87, 15);
+}
+
+
+
+/* about-us */
+#about {
+    margin-top: 30px;
+}
+#about .card {
+    background-color: #E9ECEF;
+    border: none;
+}
+#about h1 {
+    color: #AD7BE9;
+}
+#about h3 {
+    color: rgb(222, 172, 78);
+}
+#about p {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* product */
+#product {
+    margin-top: 2%;
+}
+#product h2 {
+    color: rgb(182, 51, 51);
+}
+#product .card {
+    margin-top: 2%;
+}
+#product .card img {
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+    margin-top: 10px;
+}
